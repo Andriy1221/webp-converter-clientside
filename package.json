@@ -1,0 +1,30 @@
+{
+  "name": "webp-converter-clientside",
+  "version": "1.0.0",
+  "description": "Converts images to webp",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/Andriy1221/webp-converter-clientside.git",
+  "author": "Andriy <raykage@hotmail.de>",
+  "keywords": [
+    "webp",
+    "convert",
+    "image convert",
+    "convert webp",
+    "convert to webp",
+    "image to webp"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
